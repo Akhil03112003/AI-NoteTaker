@@ -1,0 +1,16 @@
+# Backend runtime
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+SQLAlchemy>=2.0,<3
+alembic>=1.13,<2
+psycopg[binary]>=3.2,<4
+pydantic-settings>=2.7,<3
+python-multipart>=0.0.20,<1
+
+# API tests
+httpx>=0.27,<1
+pytest>=8,<9
+
+# Preserve the existing provider smoke-test environment
+deepgram-sdk==7.16.0
+python-dotenv==1.2.4

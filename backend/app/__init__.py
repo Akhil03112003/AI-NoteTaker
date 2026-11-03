@@ -1,0 +1,1 @@
+"""AI Notetaker backend application."""
